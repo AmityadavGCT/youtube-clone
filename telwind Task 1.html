@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telwind-Assignment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class=" bg-gray-100 min-h-screen flex justify-center items-center font-sans ">
+        <div class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center">
+            <!-- Login container -->
+            <div class="sm:w-1/2  pr-6 pl-6">
+                <h2 class="text-3xl mt-2  text-center">Login</h2>
+                <div class="opacity-50 mt-4 mb-8 text-sm text-center">Enter your credential to access your account</div>
+                <button class="-400 bg-white flex justify-center items-center py-2 m-3 w-full text-center border">
+                    <img class="h-6 w-6" src="https://tse2.mm.bing.net/th?id=OIP.HG6XtzIxf4Nbo_vZt8T3EAHaHa&pid=Api&P=0&h=180" alt="google logo">&nbsp;
+                    <div>Login with Google</div>                
+                </button>
+                <div class="mt-6 grid grid-cols-3 items-center p-3">
+                    <hr class="border-gray-400">
+                    <p class="text-center">OR</p>
+                    <hr class="border-gray-400">
+                </div>
+                <form action="" class="flex flex-col mt-6">
+                    <label class="" for="email">Email Address</label>
+                    <input class="p-1 border" type="email" name="email" id="email" placeholder="example@gmail.com">
+   
+                    <nav class="mt-5">
+                        <a class="float-right text-blue-500  text-sm" href="#">Forgot Password?</a>
+                        <label for="password">Password</label>
+                        <div class="flex flex-col">
+                            <input class="shadow-sm p-1 border" type="password" name="password" id="password" placeholder="Password">
+                        </div>
+                    </nav>
+                    <div class="flex flex-col text-white shadow-lg">
+                        <button class="mt-4 bg-blue-700 p-2 hover:scale-105 duration-300">Login</button>
+                    </div>
+                    <div class=" flex gap-2 text-sm mt-5">
+                        <p class="opacity-50">Don't have an account?</p>
+                        <a class="text-blue-800" href="#">Register here</a>
+                    </div>
+                </form>
+            </div>
+            <!-- Image container -->
+            <div class="sm:block hidden w-1/2 ">
+                <img class=" rounded-2xl" src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1699276377~exp=1699276977~hmac=ec944b15594422f50555ab8d2ec995c51b3807a8ef41a7953532495481ac5325" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
